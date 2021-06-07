@@ -8,6 +8,6 @@ In this repository, you will find the list of the ML software projects and their
 
 - The folder 'RQs' contains the analysis data both in raw forms and processed data we used to answer each of the proposed research questions.
 
-- Similarly, the folder 'files' contains the important files that we used during our manual labelling following open-coding procedure.
+- Similarly, the folder 'Important-files' contains the important files that we used during our manual labelling following open-coding procedure.
 
 - In Folder 'selection', you will find the projects selection from the initial steps to the final list of projects, and their meta-data. The folder also contains the initial manual labelling for our analysis.
