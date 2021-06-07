@@ -1,0 +1,22 @@
+﻿Repos,auto_sklearn,google_automl,tpot,autokeras,Nupic,Apollo,nni,Ray,DeepSpeech
+Consistency,18.2,8.4,13.9,21.5,13.1,5.2,6.5,9.6,12.5
+Data Validity,21.4,20.3,27.2,30.1,10.6,21.6,22.2,21.5,24
+Completeness,5.4,20.7,14.3,9.7,15.2,15,13.5,10.4,10.6
+Robustness,8.1,1.3,2.1,0.9,1,0.2,2.2,0,1.5
+Efficiency,2.2,1.3,4.2,1.1,2.8,3.8,4.9,16.3,4.6
+Data Relation,0.8,0,1.7,1.1,3,2.9,0.5,0.4,2.7
+Scalability,1.1,0.9,2.8,0.9,1,0.5,6.5,4.8,0.8
+Features Importance,7,0,1.7,0.3,0.5,0.2,0.5,0,1.1
+Data Restoration and Recovery,0.5,0.4,0,0.3,3.3,0,3.8,5.6,2.3
+Compatibility and Portability,0,0.4,0,0,0.7,0,1.1,1.2,5.7
+Concurrency and Parallelism,0.3,0,0.7,0,0,0.7,0.5,0.4,0.4
+Uncertainty,0,0,0,0,0,1.7,0,0,0
+Data Distribution,6.5,11,0.7,3.7,15,13.6,8.1,10,14.1
+Anomaly,0.3,2.2,0,0,4.2,2.9,2.7,0,0.4
+Data Migration Loss and Corruption,0,0,0,0,0.7,0.7,0,4.4,1.9
+Bias and Fairness,0,0,0,0,0.3,0.3,2.7,0,0
+Security and Privacy,0,0,0,0,0,0.9,2.2,0,0
+Data Uniqueness,0,0,0,0.3,0,2.1,2.7,5.2,1.1
+Timeliness,0,0,0,0,0.3,4.1,0,0.4,0
+Data Integration Integrity,0,1.8,0,0.9,0.3,1,0,0,0.4
+Correctness,28.2,31.3,30.7,29.2,27.9,22.6,19.5,10,16

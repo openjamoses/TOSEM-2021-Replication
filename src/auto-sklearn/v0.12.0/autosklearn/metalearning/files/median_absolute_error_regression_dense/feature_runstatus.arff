@@ -1,0 +1,66 @@
+@RELATION auto-sklearn_FEATURE_RUNSTATUS
+
+@ATTRIBUTE instance_id STRING
+@ATTRIBUTE repetition NUMERIC
+@ATTRIBUTE NumberOfInstances {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE LogNumberOfInstances {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE NumberOfFeatures {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE LogNumberOfFeatures {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE MissingValues {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE NumberOfInstancesWithMissingValues {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE PercentageOfInstancesWithMissingValues {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE NumberOfFeaturesWithMissingValues {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE PercentageOfFeaturesWithMissingValues {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE NumberOfMissingValues {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE PercentageOfMissingValues {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE NumberOfNumericFeatures {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE NumberOfCategoricalFeatures {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE RatioNumericalToNominal {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE RatioNominalToNumerical {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE DatasetRatio {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE LogDatasetRatio {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE InverseDatasetRatio {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE LogInverseDatasetRatio {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE NumSymbols {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SymbolsMin {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SymbolsMax {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SymbolsMean {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SymbolsSTD {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SymbolsSum {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE Kurtosisses {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE KurtosisMin {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE KurtosisMax {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE KurtosisMean {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE KurtosisSTD {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE Skewnesses {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SkewnessMin {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SkewnessMax {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SkewnessMean {ok, timeout, memout, presolved, crash, other}
+@ATTRIBUTE SkewnessSTD {ok, timeout, memout, presolved, crash, other}
+
+@DATA
+kin8nm,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+cpu_act,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+delta_elevators,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+pol,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+quake,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+2dplanes,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+elevators,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+house_8l,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+puma8nh,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+cpu_small,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+wine_quality,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+ailerons,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+puma32h,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+mv,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+mtp,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+yprop_4_1,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+topo_2_1,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+space_ga,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+bank32nh,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+cpu_small,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+fried,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+cpu_act,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+house_16h,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+swd,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
+era,1.0,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,ok,other,ok,ok,ok,ok,other,ok,ok,ok,ok
