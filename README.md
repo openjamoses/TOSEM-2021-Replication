@@ -1,5 +1,5 @@
 # TOSEM-2021-Replication
-This repository is a replication package analyzing the software testing practices related to Machine Learning based application
+This repository is a replication package analyzing of the software testing practices related to Machine Learning based application
 
 ## The descriptions of the contents:
 In this repository, you will find the list of the ML software projects and their source codes for the selected project's versions, and the data containing the analysis for each of our four research questions (both in raw and processed form). For specific details, please refer to the descriptions below:
